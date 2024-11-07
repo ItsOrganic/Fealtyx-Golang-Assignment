@@ -66,12 +66,24 @@ To set up the project locally:
    ```bash
    make run
    ```
+#### Deployed URL
+```bash
+https://fealtyx-golang-assignment.onrender.com
+```
 ### Using API Endpoints
 
 You can import the Postman collection for testing. 
+
+For Testing Locally copy the postman collection api below : 
 ```plaintext
 https://api.postman.com/collections/28479580-38eb4a0a-c146-4564-ad27-856d41ed6765?access_key=PMAT-01JC1PSJXYZE6RV78QK0PSJWDH
 ```
+
+For Testing on the deployed URL copy the postman collection api below : 
+```plaintext
+https://api.postman.com/collections/28479580-32a53b8c-5ae7-4eb9-abe8-fe316f078f06?access_key=PMAT-01JC2KY7QFEDZVKMGAKG7HH2DT
+```
+
 ### How to Import Postman Collection:
 1. Copy the link above to access the collection.
 2. In Postman, click **Import** > **Paste the URL** to add it to your workspace.
