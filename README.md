@@ -93,3 +93,9 @@ https://api.postman.com/collections/28479580-32a53b8c-5ae7-4eb9-abe8-fe316f078f0
 ## Suggestion for Scaling the Architecture
 
 <img align='center' src='./assets/scale.png'  > </img>
+
+# Demo Video 
+```bash
+https://youtu.be/_s2rXeiSP8o
+```
+or click <a href='https://youtu.be/_s2rXeiSP8o'> here <a>
