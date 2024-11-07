@@ -93,7 +93,7 @@ func (h *Handler) GetStudents(c *gin.Context) {
 	mutex.RLock()
 	defer mutex.RUnlock()
 
-	c.JSON(http.StatusOK, gin.H{"sucess": student})
+	c.JSON(http.StatusOK, gin.H{"success": student})
 }
 
 // Updating the student details method="PUT"
@@ -154,7 +154,7 @@ func (h *Handler) DeleteStudent(c *gin.Context) {
 	for index, value := range student {
 		if value.Id == studentID {
 			student = append(student[:index], student[index+1:]...)
-			c.JSON(http.StatusOK, gin.H{"sucess": "Student deleted"})
+			c.JSON(http.StatusOK, gin.H{"success": "Student deleted"})
 			return
 		}
 	}
